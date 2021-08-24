@@ -1,140 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-
-    <link href="styles.css" rel="stylesheet"/>
+    <title>home | adarshbalika</title>
+    <link href="styles.css" rel="stylesheet" />
 </head>
-
 <body>
-    <h1>Pooja's component library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
-
-    <hr>
-
-    <h2>@typography</h2>
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Let me show you the noormal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <p>This para will have a <strong>bold</strong> text.</p>
-    <small> This is relatively smaller text</small>
-
-    <hr>
-    <h2>@conatiner</h2>
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and it will go till the end of the page.</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a cenetred container and it will go till the specific width.</div>
-
-    <hr>
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>Unordered list</h3>
-    <p>This list will not have bullet</p>
-    <ul class="list-non-bullet">
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item three</li>
-    </ul>
-
-    <h3>Unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline item one</li>
-        <li class="list-item-inline">Inline item two</li>
-        <li class="list-item-inline">Inline item three</li>
-    </ul>
-
-    <h3>Reverse ordered list</h3>
-    <ol reversed>
-        <li>Milk</li>
-        <li>Egss</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
+    
     <nav class="navigation container">
-        <div class="nav-brand">iAmBrand</div>
+        <div class="nav-brand">iAmCoder</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">Home</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">Projects</a>
+                <a class="link" href="lib/projects.html">Projects</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">About</a>
+                <a class="link" href="lib/blogs.html">Blogs</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@header</h2>
 
     <header class="hero">
-        <img class="hero-img" src="images/hero.svg" />
-        <!-- one way
-            <h1 class="hero-heading">Pooja Sehgal the <span style="color: var(--primary-color);">web developer</span></h1> -->
-        <!-- SECOND WAY TO HIGHLIGHT TEXT  -->
+        <img class="hero-img" src="/images/hero.svg" />
         <h1 class="hero-heading">Pooja Sehgal the <span class = "heading-inverted">web developer</span></h1>
     </header>
 
-    <hr>
 
-
-    <h2>@section</h2>
+    <section class="section ow" >
+        <div class="container container-center">
+        <h1>Technologies</h1>
+        <p>I'm familiar with HTML5, CSS3,Git, JavaScript, Web Hosting, Spring boot, Spring MVC, MongoDB, MySql and Java.
+        </p>
+        </div>
+    </section>
 
     <section class="section">
         <div class="container container-center">
-        <h1>White section</h1>
-        <p>This will have a white background</p>
-        <p>MDN is an open source resource where anyone can add and edit content. You don't need to be a programmer or know a lot about technologies. There are plenty of things that need to be done, from the simple (proofreading and correcting typos) to the complex (writing API documentation).
+        <h1>Projects</h1>
+        <p>I would like to showcase my work and thus, you can see my projects hosted online.</p>
 
-        </p>
-        </div>
-    
+        <a class="link link-primary" href="/">See Projects</a>
+    </div>
     </section>
 
     <section class="section ow" >
         <div class="container container-center">
-        <h1>Off white section</h1>
-        <p>This will have a gray background</p>
-        <p>MDN is an open source resource where anyone can add and edit content. You don't need to be a programmer or know a lot about technologies. There are plenty of things that need to be done, from the simple (proofreading and correcting typos) to the complex (writing API documentation).
-
+        <h1>Blogs</h1>
+        <p>I'm also working on some technical and non technical blogs. I like to document my journey of learning.
         </p>
+
+        <a class="link link-secondary" href="/">Read Blogs</a>
         </div>
     </section>
 
-    <hr>
-
-    <h2>@footer</h2>
-
     <footer class="footer">
 
-    <div class="footer-header">Some small heading inside footer</div>
-    <ul class="social-links list-non-bullet">
-        <li class="list-item-inline"><a class="link" href="/">socialOne</a> </li>
-        <li class="list-item-inline"><a class="link" href="/"> socialTwo</a></li>
-        <li class="list-item-inline"><a class="link" href="/"> socialThree</a></li>
-    </ul>
-    </footer>
+        <div class="footer-header">Social media presence</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://github.com/sehgal-pooja">github</a> </li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/pooja-sehgal-a73bb618a/"> linkedIn</a></li>
+        </ul>
+        </footer>
 
 </body>
-
 </html>
