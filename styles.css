@@ -2,6 +2,7 @@
 
 :root{
     --primary-color: #FCA5A5;
+    --dark-gray: #6B7280;
 }
 
 body{
@@ -81,4 +82,24 @@ hr{
     font-weight: bold;
 }
 
+/**header**/
 
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-gray)  ;
+}
+
+/* second way to highlight text */
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
